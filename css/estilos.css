@@ -4,3 +4,27 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.nav-bar {
+  background-color: aliceblue;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+.nav-bar li {
+  padding-left: 30px;
+}
+.nav-bar a {
+  font-family: sans-serif;
+  display: block;
+  padding: 15px;
+  background-color: brown;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.nav-bar a:hover {
+  background-color: aliceblue;
+  color: brown;
+  transition: .5s;
+}
